@@ -29,8 +29,8 @@ h4{
 }
 
 .Contenido div p{
-    size: 25px;
     text-align: center;
+    text-decoration: solid;
 }
 
 .Contenido #Resp{
