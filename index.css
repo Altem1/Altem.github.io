@@ -1,0 +1,21 @@
+header{
+    background-color: rgba(0, 0,0,0.9);
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+}
+
+h4{
+    color: white;
+    padding-left: 20px;
+}
+
+.Conte{
+    color: white;
+    margin: auto;
+}
+
+.Conte a{
+    color: white;
+    padding: 10px;
+}
