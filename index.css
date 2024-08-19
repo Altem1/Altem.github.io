@@ -26,6 +26,14 @@ h4{
 
 .Contenido{
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(100px, auto);
+}
+
+.Contenido .presentacion{
+    grid-row: 0;
+    grid-column: 1;
+    grid-column-end: 4;
 }
 
 .Contenido div p{
@@ -38,4 +46,13 @@ h4{
     color: white;
     padding-top: 20px;
     padding-left: 15px;
+}
+
+table{
+    border-style: solid;
+    grid-column: 2/3;
+}
+
+table img{
+    width: 110px;
 }
