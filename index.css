@@ -1,3 +1,7 @@
+body{
+    font-family: Roboto;
+}
+
 header{
     background-color: rgba(0, 0,0,0.9);
     border-radius: .5rem;
@@ -48,11 +52,22 @@ h4{
     padding-left: 15px;
 }
 
-table{
-    border-style: solid;
-    grid-column: 2/3;
-}
 
 table img{
     width: 110px;
 }
+
+.redes{
+    grid-column: 2;
+    grid-row: 3 ;
+}
+
+.cuerpo{
+    grid-column: 1/4;
+    grid-row: 2;
+}
+
+.cuerpo p{
+    text-align: center;
+}
+
