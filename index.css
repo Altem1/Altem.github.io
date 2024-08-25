@@ -1,17 +1,24 @@
 body{
     font-family: Roboto;
+    margin: 0;
 }
 
 header{
     background-color: rgba(0, 0,0,0.9);
-    border-radius: .5rem;
+    border-end-end-radius: .8rem;
+    border-end-start-radius: .8rem;
     display: flex;
+    margin: auto;
     align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 h4{
     color: white;
     padding-left: 20px;
+    position: absolute;
+    left: 0;
 }
 
 .Conte{
@@ -19,16 +26,19 @@ h4{
     margin: auto;
 }
 
-.Conte a{
+header a{
     color: white;
     padding: 10px;
     border-style: solid;
     border-radius: .7rem;
-    margin-left: 10px;
     text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;   
+    margin-left: 7px; 
 }
 
 .Contenido{
+    margin: 8px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: minmax(100px, auto);
@@ -38,6 +48,7 @@ h4{
     grid-row: 0;
     grid-column: 1;
     grid-column-end: 4;
+    backface-visibility: .5;
 }
 
 .Contenido div p{
@@ -72,9 +83,15 @@ table img{
 }
 
 .cuerpo img{
-    width: 200px;
+    margin: auto;
+    height: 200px;
 }
 
 .cajadeproyectos{
-    display: ruby;
+    display: flex;
+    align-items: baseline;
+}
+
+.proyectos{
+    margin: 0 auto;
 }
