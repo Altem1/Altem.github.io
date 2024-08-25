@@ -1,6 +1,8 @@
 body{
     font-family: Roboto;
     margin: 0;
+    background: rgb(133,247,255);
+    background: radial-gradient(circle, rgba(133,247,255,1) 0%, rgba(225,183,255,1) 50%, rgba(96,237,180,1) 100%); 
 }
 
 header{
@@ -48,19 +50,26 @@ header a{
     grid-row: 0;
     grid-column: 1;
     grid-column-end: 4;
-    backface-visibility: .5;
 }
 
-.Contenido div p{
+.Contenido div .titulo{
     text-align: center;
     text-decoration: solid;
 }
 
 .Contenido #Resp{
-    background-image: url(img/GitHub__headpic.webp);
+    width: 80%;
+    margin: 0 auto;
+    background: rgb(19,105,155);
+    background: -moz-radial-gradient(circle, rgba(19,105,155,1) 0%, rgba(0,188,188,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(19,105,155,1) 0%, rgba(0,188,188,1) 100%);
+    background: radial-gradient(circle, rgba(19,105,155,1) 0%, rgba(0,188,188,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#13699b",endColorstr="#00bcbc",GradientType=1); 
     color: white;
     padding-top: 20px;
     padding-left: 15px;
+    border-style: solid;
+    border-radius: .7rem;
 }
 
 
@@ -74,12 +83,11 @@ table img{
 }
 
 .cuerpo{
-    grid-column: 1/4;
+    grid-column-start:1;
     grid-row: 2;
-}
-
-.cuerpo p{
-    text-align: center;
+    margin: auto;
+    grid-column-end: 4;
+    width: 65%;
 }
 
 .cuerpo img{
@@ -87,11 +95,19 @@ table img{
     height: 200px;
 }
 
-.cajadeproyectos{
+.proyecto1,
+.proyecto2,
+.proyecto3,
+.proyecto4{
+    border-style: solid;
+    border-color: white;
+    border-radius: .8rem;
     display: flex;
-    align-items: baseline;
+    margin-bottom: 10px;
 }
 
-.proyectos{
-    margin: 0 auto;
+.orientacion{
+    margin: 8px;
+    width: 40%;
+    text-align: center;
 }
