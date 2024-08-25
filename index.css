@@ -74,3 +74,7 @@ table img{
 .cuerpo img{
     width: 200px;
 }
+
+.cajadeproyectos{
+    display: ruby;
+}
