@@ -339,3 +339,50 @@ footer div a{
     text-decoration: none;
 }
 
+@media screen and (max-width: 1400px) {
+    header a{
+        display: none;
+    }  
+    
+    header{
+        height: 50px;
+    }
+
+    .cuerpo{
+        width: 90%;
+    }
+
+    .cuerpo img{
+        border-radius: .5rem;
+    }
+
+    .proyecto1,
+    .proyecto2,
+    .proyecto3,
+    .proyecto4{
+        display: block;
+        
+    }
+
+    .proyecto1 span p,
+    .proyecto2 span p,
+    .proyecto3 span p,
+    .proyecto4 span p{
+        margin: 15px;
+    }
+
+    .orientacion{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .proyecto1 span span,
+    .proyecto2 span span,
+    .proyecto3 span span,
+    .proyecto4 span span{
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+}
