@@ -144,3 +144,193 @@ button:hover{
     farthest-corner at 10% 20%, rgba(255, 94, 247, 1) 17.8%, rgba(2, 245, 255, 1) 100.2%);
     transition: 0.5s;
 }
+
+body{
+    font-family: Roboto;
+    margin: 0;
+    background: rgb(133,247,255);
+    background: radial-gradient(circle, rgba(133,247,255,1) 0%, rgba(225,183,255,1) 50%, rgba(96,237,180,1) 100%); 
+}
+
+header{
+    background-color: rgba(0, 0,0,0.9);
+    border-end-end-radius: .8rem;
+    border-end-start-radius: .8rem;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h4{
+    color: white;
+    padding-left: 20px;
+    position: absolute;
+    left: 0;
+}
+
+.Conte{
+    color: white;
+    margin: auto;
+}
+
+header a{
+    color: white;
+    padding: 10px;
+    border-style: solid;
+    border-radius: .7rem;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;   
+    margin-left: 7px; 
+}
+
+.Contenido{
+    margin: 8px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(100px, auto);
+}
+
+.Contenido .presentacion{
+    grid-row: 0;
+    grid-column: 1;
+    grid-column-end: 4;
+}
+
+.Contenido div .titulo{
+    text-align: center;
+    text-decoration: solid;
+}
+
+.Contenido #Resp{
+    width: 80%;
+    margin: 0 auto;
+    background: rgb(19,105,155);
+    background: -moz-radial-gradient(circle, rgba(19,105,155,1) 0%, rgba(0,188,188,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(19,105,155,1) 0%, rgba(0,188,188,1) 100%);
+    background: radial-gradient(circle, rgba(19,105,155,1) 0%, rgba(0,188,188,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#13699b",endColorstr="#00bcbc",GradientType=1); 
+    color: white;
+    padding-top: 20px;
+    padding-left: 15px;
+    border-style: solid;
+    border-radius: .7rem;
+}
+
+
+table img{
+    width: 110px;
+}
+
+.redes{
+    grid-column: 2;
+    grid-row: 3 ;
+}
+
+.cuerpo{
+    grid-column-start:1;
+    grid-row: 2;
+    margin: auto;
+    grid-column-end: 4;
+    width: 65%;
+}
+
+.cuerpo img{
+    margin: auto;
+    height: 200px;
+}
+
+.proyecto1,
+.proyecto2,
+.proyecto3,
+.proyecto4{
+    border-style: solid;
+    border-color: white;
+    border-radius: .8rem;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.orientacion{
+    margin: 8px;
+    width: 40%;
+    text-align: center;
+}
+
+.Contenido .cuerpo .cajadeproyectos span{
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    color: fff;
+    font-size: 12px;
+    border-radius: 1rem;
+    border: none;
+    position: relative;
+    background: #100720;
+    transition: 0.1s;
+    text-decoration: none;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+button:hover{
+    transform: scale(0.9) rotate(3deg);
+    background: radial-gradient( circle
+    farthest-corner at 10% 20%, rgba(255, 94, 247, 1) 17.8%, rgba(2, 245, 255, 1) 100.2%);
+    transition: 0.5s;
+}
+
+footer {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    bottom: 0; /* Posiciona el footer en la parte inferior */
+    width: 100%; /* Asegura que el footer ocupe todo el ancho de la página */
+    height: 100px;
+    text-align: center;
+    background-color: #333; /* Color de fondo del footer */
+    padding: 10px 0; /* Espaciado interno del footer */
+    background-color: rgba(0, 0,0,0.9);
+    z-index: 1;
+    grid-column-start:1;
+    grid-column-end: 4;
+    grid-row: 3;
+    border-top-left-radius: .9rem;
+    border-top-right-radius: .9rem;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column; /* Cambia la dirección del flex a columna */
+    color: white;
+    padding: 10px;
+    border-style: solid;
+    border-radius: .7rem;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;   
+    margin-left: 7px; 
+}
+
+footer img {
+    width: 50px;
+}
+
+footer div a{
+    color: white;
+    text-decoration: none;
+}
+
