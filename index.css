@@ -226,6 +226,11 @@ table img{
     width: 110px;
 }
 
+.tt{
+    font-size: 200%;
+    text-align: center;
+}
+
 .redes{
     grid-column: 2;
     grid-row: 3 ;
