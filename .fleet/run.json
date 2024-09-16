@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "browser",
+            "name": "Browser configuration",
+            "browser": "firefox",
+            "url": "",
+        },
+
+    ]
+}

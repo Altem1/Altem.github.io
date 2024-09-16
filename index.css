@@ -30,7 +30,13 @@ h4{
     margin: auto;
 }
 
-header a{
+nav.responsive-bar ol{
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+nav.responsive-bar ol li a{
     color: white;
     padding: 10px;
     border-style: solid;
@@ -39,6 +45,11 @@ header a{
     margin-top: 10px;
     margin-bottom: 10px;   
     margin-left: 7px; 
+    display: block;
+}
+
+.hamico{
+    display: none;
 }
 
 .Contenido{
@@ -340,12 +351,10 @@ footer div a{
 }
 
 @media screen and (max-width: 600px) {
-    header a{
-        display: none;
-    }  
-    
+
     header{
         height: 50px;
+        border-bottom-right-radius: 0;
     }
 
     .cuerpo{
@@ -361,7 +370,6 @@ footer div a{
     .proyecto3,
     .proyecto4{
         display: block;
-        
     }
 
     .proyecto1 span p,
@@ -385,4 +393,66 @@ footer div a{
         margin: 0 auto;
         display: block;
     }
+
+    .responsive-bar {
+        display: none;
+        border-style: solid;
+        border-radius: .5rem;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        position: absolute;
+        top: 0;
+        right: -100%;
+        margin-top: 70px;
+        background-color: rgba(0, 0, 0, 0.7);
+        transition: right 0.6s ease; /* Transición suave */
+    }
+
+    .responsive-bar.show {
+        animation: slideIn 0.6s forwards; /* Aplica la animación de entrada */
+    }
+
+    .responsive-bar.hide {
+        animation: slideOut 0.6s forwards; /* Aplica la animación de salida */
+    }
+
+    @keyframes slideIn {
+        from {
+            right: -100%;
+        }
+        to {
+            right: 0;
+        }
+    }
+
+    @keyframes slideOut {
+        from {
+            right: 0;
+        }
+        to {
+            right: -100%;
+        }
+    }
+
+
+    nav.responsive-bar ol{
+        display: contents;
+    }
+
+    nav.responsive-bar ol li{
+        list-style-type: none;
+    }
+
+    nav.responsive-bar ol li a{
+        border-style: none;
+    }
+
+    header i{
+        color: white;
+        position: absolute;
+        right: 0;
+        margin-right: 15px;
+        font-size: 24px;        
+    }
+
 }
