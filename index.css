@@ -460,7 +460,8 @@ footer div a{
         position: absolute;
         right: 0;
         margin-right: 15px;
-        font-size: 24px;        
+        font-size: 24px;    
+        display: inline;
     }
 
 }
