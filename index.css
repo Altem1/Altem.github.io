@@ -18,6 +18,10 @@ header{
     padding-bottom: 10px;
 }
 
+header i{
+    display: none;
+}
+
 h4{
     color: white;
     padding-left: 20px;
@@ -34,6 +38,10 @@ nav.responsive-bar ol{
     display: flex;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+nav.responsive-bar ol li{
+    list-style-type: none;
 }
 
 nav.responsive-bar ol li a{
