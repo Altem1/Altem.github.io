@@ -1,0 +1,105 @@
+.Contenedor{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.Parte1_1{
+    display: flex;
+    justify-content: center;
+}
+
+.Parte1_1 .Resumen #titulo{
+    font-weight: bold;
+}
+
+.Resumen{
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    border-radius: .5rem;
+    padding: 0 15px 0 15px;
+}
+
+.Parte1_1 .img{
+    width: 10%;
+    position: relative;
+}
+
+.Parte1_1 .img img{
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: .5rem;
+}
+
+Parte1_1 .Resumen{
+    width: 30%;
+}
+
+.Parte1_1 .img,
+.Parte1_1 .Resumen,
+.Parte1_1 .Multimedia{
+    margin-right: 15px;
+}
+
+.Agentes{
+    margin: 0 auto;
+    width: 50%;
+}
+
+#titulo_agente{
+    text-align: center;
+}
+
+.Agentes .row1 img,
+.Agentes .row2 img{
+    height: 150px;
+    padding-top: 15px;
+}
+
+.Agentes .row1,
+.Agentes .row2{
+    text-align: center;
+}
+
+.Agentes .row1 .agente1,
+.Agentes .row1 .agente2,
+.Agentes .row1 .agente3,
+.Agentes .row2 .agente4,
+.Agentes .row2 .agente5,
+.Agentes .row2 .agente6{
+    width: 250px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.Agentes .row1 .agente1{
+    border-top-left-radius: .5rem;
+}
+
+.Agentes .row1 .agente3{
+    border-top-right-radius: .5rem;
+}
+
+.Agentes .row2 .agente4{
+    border-bottom-left-radius: .5rem;
+}
+
+.Agentes .row2 .agente6{
+    border-bottom-right-radius: .5rem;
+}
+
+.Agentes .row1{
+    display: flex;
+}
+
+.Agentes .row2{
+    display: flex;
+}
+
+h2{
+    text-align: center;
+}

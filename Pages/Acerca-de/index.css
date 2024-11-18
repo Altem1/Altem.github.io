@@ -1,0 +1,133 @@
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #294d61;
+    color: white;
+}
+
+.contenedor{
+    width: 85%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #05161A;
+    color: white;
+    height: 67px;
+    border-bottom-right-radius: .7rem;
+    border-bottom-left-radius: .7rem;
+    position: relative;
+}
+
+header .Head-Container{
+    margin-left: 20px;
+    width: 95%;
+    display: flex;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+header .Head-Container .Parte3{
+    position: fixed;
+    right: 0;
+}
+
+.Parte1{
+    margin: 0 auto;
+    display: flex;
+    width: 90%;
+}
+
+.Parte1 img{
+    border-width: 25%;
+    margin: 12px;
+    padding: 10px;
+    width: 20%;
+}
+
+.Parte1 div{
+    margin: 15px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.Parte1 div #titulo{
+    font-weight: bold;
+}
+
+.Parte2 table{
+    border-style: solid;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    padding: 15px 15px 15px 15px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, .05);
+    border-spacing: 10px;
+    table-layout: fixed;
+    width: 80%;
+}
+
+#t1{
+    background-color: #2B4850;
+}
+
+#t2{
+    background-color: #637B87;
+}
+
+#t3{
+    background-color: #586f8b;
+}
+
+#t1,
+#t2,
+#t3{
+    border-top-right-radius: .5rem;
+    border-top-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    border-width: 2px;
+    cursor: pointer;
+}
+
+.Parte2 table thead tr th,
+.Parte2 table tbody tr td{
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-bottom-left-radius: .5rem;
+    border-top-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    margin-top: 15px;
+    width: 20%;
+}
+
+.Parte2 table tbody tr td{
+    padding: 0 15px 0 15px;
+}
+
+.Parte3 #boton1,
+.Parte3 #boton2,
+.Parte3 #boton3{
+    width: 100px;
+    height: 40px;
+    background-color: #6DA5C0;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+}
+
+#boton1:hover,
+#boton2:hover,
+#boton3:hover{
+    background-color: #573D7C;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: rgb(127, 225, 255);
+}       
